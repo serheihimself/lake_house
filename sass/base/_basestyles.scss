@@ -19,6 +19,9 @@ body {
 
 a {
   text-decoration: none;
+  &:hover {
+    color: var(--main-button-color);
+  }
 }
 
 ul {
